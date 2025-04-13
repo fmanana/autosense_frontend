@@ -12,18 +12,28 @@ you should run the application on an Android emulator.
 
 ## Getting Started
 
-### 1. Install Dependencies
+### 1. From APK
+
+[Download](https://github.com/fmanana/autosense_frontend/releases/download/v0.0.1/app-debug.apk) the APK file into an
+emulator and run the application.
+
+### 2. From Source
+
+Alternatively, to build the application from source, clone the repo:
+```bash
+git clone https://github.com/fmanana/autosense_frontend
+```
+
+#### Install Dependencies
 
 To install the flutter dependencies run the following command:
 ```bash
 flutter pub get
 ```
 
-### 2. Run the App
+#### Run the App
 
-Load the APK file into an emulator and run the application.
-
-Alternatively, to build the application from source run:
+With the emulator running, run the following command:
 ```bash
 flutter run
 ```
